@@ -1,45 +1,34 @@
-POWERSOURCE ENERGY — WEBSITE (ENGLISH)
-======================================
+PowerSource Energy — Updated Website
+====================================
 
-WHAT IS INCLUDED
-- index.html      Home page: company message, cables, diesel and gasoline
-                  generators, hydroelectric equipment, project approach.
-- contact.html    Dedicated contact page (the home page does NOT repeat
-                  email/address/contact forms).
-- styles.css      Responsive premium visual design.
-- main.js         Mobile navigation, reveal animations and current footer year.
-- assets/         Local photographs and graphics, no external photo hosting.
+Contents:
+- index.html          Home page, with clickable small Miami map
+- generators.html     Power Generators product page
+- hydropower.html     Hydropower Equipment product page
+- contact.html        Contact page, including Google Maps preview
+- styles.css          Unified corporate styling
+- main.js             Navigation and animations
+- assets/             Local images including cropped reference imagery
+- CNAME               GitHub Pages custom domain powersource.energy
 
-CLIENT DETAILS (as supplied)
-Business name: PowerSource Energy
-Main message: Customized Engineering. Tailored to Your Needs. Manufactured in China.
-Email: powersourceenergy@yahoo.com
-Office: 2792 NW 24th Street, Miami, FL 33142
-Offerings: Transmission cables; diesel and gasoline generators;
-           hydroelectric equipment.
+UPLOAD TO GITHUB PAGES:
+Upload files and assets/ folder to the ROOT of your GitHub repository.
+Do not upload the enclosing downloaded ZIP itself, and do not create an extra
+folder layer. Set Pages to deploy from main / (root).
 
-WEBSITE NAVIGATION
-The only off-page contact action is the email link on contact.html.
-Home, Equipment, Our Approach and Contact are navigation within the site.
-No WhatsApp, telephone numbers, maps, social media, contact forms, third-
-party scripts or remote fonts are present.
+The following pages will become available under your domain:
+- https://powersource.energy/
+- https://powersource.energy/generators.html
+- https://powersource.energy/hydropower.html
+- https://powersource.energy/contact.html
 
-PUBLISHING TO GITHUB PAGES OR ANY STATIC HOST
-1. Extract the ZIP file, keeping the folder structure intact.
-2. Upload index.html, contact.html, styles.css, main.js and the assets folder
-   together to the site's publishing root.
-3. Open index.html. The Contact button opens contact.html.
-4. Use only the client's confirmed domain and DNS settings when ready.
+Google Maps previews are static local images based on the provided reference
+image; clicking them opens the real Google Maps search location. The images
+are representative imagery provided with the project and not a live map.
 
-IMAGES AND CONTENT
-All images originate from the visual references supplied in the chat.
-Several were cropped from design screenshots; for final production, higher-
-resolution original manufacturer photographs can be substituted by keeping
-existing asset filenames. The photo of blue industrial hydro machinery comes
-from the supplied original photograph. The VANTREX turbine values are a
-technical reference from the supplied catalog, not a general performance
-promise. There is no invented phone number or company social account.
+All visible content is in English. No phone, WhatsApp or contact forms
+were added. The external links are Google Maps and the email link on Contact.
 
-Note: The client said 'only one page' but separately requested contact details
-only on a Contact page. The implementation uses one complete website, with
-one main page plus one dedicated Contact page to respect both requests.
+Note: Images cropped from reference screenshots are limited by the image
+resolution of the screenshots provided. For higher fidelity, replace with
+original high-resolution photographs when available.
