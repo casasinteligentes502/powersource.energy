@@ -32,3 +32,10 @@ were added. The external links are Google Maps and the email link on Contact.
 Note: Images cropped from reference screenshots are limited by the image
 resolution of the screenshots provided. For higher fidelity, replace with
 original high-resolution photographs when available.
+
+
+CONTACT FORM (FORM SUBMIT)
+The form on contact.html posts to https://formsubmit.co/info@powersource.energy.
+First activation: after publishing on GitHub Pages, submit the form once from the live site, then open info@powersource.energy and approve the activation email from FormSubmit (check spam). Only then test a second real submission and verify delivery.
+This uses a third-party external form service; do not enter confidential personal information when testing.
+Files changed for form: contact.html, main.js, styles.css. The old mailto handler was removed.

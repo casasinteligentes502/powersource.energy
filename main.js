@@ -32,34 +32,5 @@
     document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
   }
 
-  const contactForm = document.querySelector('.js-contact-form');
-  if (contactForm) {
-    contactForm.addEventListener('submit', (event) => {
-      event.preventDefault();
-      const data = new FormData(contactForm);
-      const recipient = 'info@powersource.energy';
-      const name = (data.get('name') || '').toString().trim();
-      const company = (data.get('company') || '').toString().trim();
-      const email = (data.get('email') || '').toString().trim();
-      const phone = (data.get('phone') || '').toString().trim();
-      const interest = (data.get('interest') || '').toString().trim();
-      const message = (data.get('message') || '').toString().trim();
-      const subjectBase = interest ? `${interest} Inquiry` : 'Project Inquiry';
-      const subject = encodeURIComponent(company ? `${subjectBase} - ${company}` : subjectBase);
-      const body = encodeURIComponent([
-        'PowerSource Energy website inquiry',
-        '',
-        `Name: ${name}`,
-        `Company: ${company || 'N/A'}`,
-        `Email: ${email}`,
-        `Phone: ${phone || 'N/A'}`,
-        `Product Interest: ${interest || 'General Inquiry'}`,
-        '',
-        'Message:',
-        message
-      ].join('\n'));
-      window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
-    });
-  }
 
 })();
