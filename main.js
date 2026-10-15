@@ -37,7 +37,7 @@
     contactForm.addEventListener('submit', (event) => {
       event.preventDefault();
       const data = new FormData(contactForm);
-      const recipient = 'powersourceenergy' + '@' + 'yahoo.com';
+      const recipient = 'info@powersource.energy';
       const name = (data.get('name') || '').toString().trim();
       const company = (data.get('company') || '').toString().trim();
       const email = (data.get('email') || '').toString().trim();
